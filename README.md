@@ -20,22 +20,18 @@ Users can register, log in, and manage events. Only authenticated users can crea
    ```bash
    git clone https://github.com/your-username/eventify-api.git
    cd eventify-api
-Install dependencies
+   
+Install dependencies--
 
-bash
-Copy
-Edit
+bash``
 npm install
-Setup environment variables
-Copy .env.example to .env and update values:
 
-bash
-Copy
-Edit
+Setup environment variables``
+.env.example to .env and update values:
+
+bash``
 cp .env.example .env
-Run the server
 
-bash
-Copy
-Edit
+Run the server
+bash``
 npm run dev
